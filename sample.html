@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample</title>
-    <script src="sample.js" defer></script>
+    <title>ランダム名言ジェネレーター</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; text-align: center; }
+        .card { margin: 20px auto; padding: 20px; border: 1px solid #ccc; max-width: 400px; }
+        button { margin: 10px; padding: 10px; }
+    </style>
 </head>
-
 <body>
-    <div id="output"></div>
+    <h2>ランダム名言ジェネレーター</h2>
+    <div id="quote-container" class="card"></div>
+    <button onclick="generateQuote()">名言を表示</button>
+    <script src="sample.js"></script>
 </body>
-
 </html>
